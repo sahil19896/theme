@@ -10814,7 +10814,7 @@ ul.tree-children {
  */
 body[data-route=""] .navbar-default,
 body[data-route="desktop"] .navbar-default {
-  background-color: #09545d;
+  background-color: initial;
 }
 #page-desktop {
   min-width: 100%;
@@ -10833,7 +10833,7 @@ body[data-route="desktop"] .navbar-default {
   height: 140px;
 }
 .case-label {
-  font-size: 12px;
+  font-size: 14px;
   font-weight: bold;
   letter-spacing: 0.4px;
   color: #ffffff;
@@ -10842,7 +10842,6 @@ body[data-route="desktop"] .navbar-default {
   transition: 0.2s;
   -webkit-transition: 0.2s;
   font-family: Roboto;
-  font-size: 12px;
 }
 .app-icon {
   padding: 20px;
@@ -12732,7 +12731,7 @@ classes should alter those!
 .grid-form-heading {
   padding: 10px 15px;
   font-size: 120%;
-  border-bottom: 1px solid #ffa00a;
+  border-bottom: 1px solid #f0f0f0;
   background: #f0f0f0;
 }
 .grid-footer {
@@ -12873,7 +12872,7 @@ classes should alter those!
 }
 .list-paging-area {
   padding: 10px 15px;
-  border-top: 2px solid #ffa00a;
+  border-top: 2px solid #bcbcbc;
   background: #f0f0f0;
 }
 .list-value {
